@@ -1,0 +1,69 @@
+{
+  "ConfigVersion": 2,
+  "MapGroup": "mg_deathmatch",
+  "MapGroupMaps": [
+    "de_dust2", "de_inferno", "de_mirage", "de_cbble", "de_overpass", "de_dust", "de_aztec", "de_nuke",
+    "de_vertigo", "cs_militia", "cs_assault", "cs_office", "cs_italy", "de_stmarc", "de_sugarcane", "de_bank",
+    "de_safehouse", "de_shortdust", "ar_shoots", "ar_baggage", "ar_monastery"
+  ],
+  "ManageGamemodesFile": false,
+  "Maps": [
+    {
+      "Id": 3758986810,
+      "Name": "Dust2",
+      "MapName": "de_dust2"
+    },
+    {
+      "Id": 3711322683,
+      "Name": "Nuke",
+      "MapName": "de_nuke"
+    },
+    {
+      "Id": 3644811896,
+      "Name": "Office",
+      "MapName": "cs_office"
+    },
+    {
+      "Id": 3615968422,
+      "Name": "Mirage",
+      "MapName": "de_mirage"
+    },
+    {
+      "Id": 3608612434,
+      "Name": "Inferno",
+      "MapName": "de_inferno"
+    }
+  ],
+  "ChatPrefix": "{orange}[Maps]{default}",
+  "DefaultLanguage": "en",
+  "PlainChatTriggers": true,
+  "EndMatchVote": {
+    "Enabled": true,
+    "UiMode": "Auto",
+    "VoteSeconds": 20,
+    "ChangeDelaySeconds": 6,
+    "ExcludeRecentMaps": 1,
+    "MaxOptions": 10,
+    "AnnounceLastRound": true
+  },
+  "Rtv": {
+    "Enabled": true,
+    "Percent": 0.6,
+    "MinPlayers": 1,
+    "AllowAfterSeconds": 60,
+    "Mode": "Now"
+  },
+  "VoteMap": {
+    "Enabled": true,
+    "Percent": 0.5,
+    "VoteSeconds": 20,
+    "CooldownSeconds": 120,
+    "ChangeDelaySeconds": 5,
+    "AllowAfterSeconds": 60,
+    "MenuSeconds": 30
+  },
+  "Hud": {
+    "LiftLines": 5,
+    "ShowTimer": true
+  }
+}
